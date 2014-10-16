@@ -30,6 +30,7 @@
 					padding : 15px 0 10px;
 				}
 				a {
+					@extend %animate-all;
 					padding : 5px 0;
 					&:hover {
 						background-color : transparent;

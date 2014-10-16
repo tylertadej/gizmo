@@ -61,6 +61,10 @@
 			padding        : 15px !important;
 			text-transform : uppercase;
 
+			&:hover {
+				color: $link-hover-color;
+			}
+
 			// Override styles to remove caret
 			.caret {
 				border-top   : inherit;
@@ -80,6 +84,7 @@
 		@extend .glyphicon;
 		font-size : 12px;
 		top       : 3px;
+
 		&:before {
 			content : "\2b";
 			.open & {
